@@ -1,0 +1,33 @@
+<html>
+
+	<head>
+		<title> ei</title>
+	</head>
+
+<body>
+
+	<div style="width: 30%; margin-left: 30%; margin-top: 10%; margin-bottom: 5%;">
+	 
+		<span>login: admin@gmail.com</span><br/>
+		<span>senha: 123 </span><br/>
+
+	<form action="acesso.php" method="post" class="form-group">
+
+
+		<div class="form-group">
+			<label>Email</label> 
+			<input name="login" id="email" type="text" class="form-control" /><br>
+			
+			<label>Senha</label>
+			<input name="senha" id="senha" type="password" class="form-control" /><br>
+			
+			<input name="enviar" id="enviar" type="submit" value="Enviar"  class="btn btn-primary " />
+			<input name="limpar" id="limpar" type="reset"  value="Limpar"  class="btn btn-primary " />
+		</div>
+	</form>
+
+	</div>
+
+</body>
+
+</html>
